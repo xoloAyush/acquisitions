@@ -9,3 +9,6 @@ export const users = pgTable('users', {
   created_at: timestamp().defaultNow().notNull(),
   updated_at: timestamp().defaultNow().notNull(),
 });
+
+//  npm run db:generate
+// npm run db:migrate 
