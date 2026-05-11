@@ -73,3 +73,25 @@
 {"level":"info","message":"::1 - - [11/May/2026:18:33:25 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:33:25.256Z"}
 {"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"user-service","timestamp":"2026-05-11T18:34:20.271Z","userAgent":"PostmanRuntime/7.51.1"}
 {"level":"info","message":"::1 - - [11/May/2026:18:34:20 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:34:20.285Z"}
+{"level":"info","message":"User signed in successfully: admin@gmail.com","service":"user-service","timestamp":"2026-05-11T18:37:29.377Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:37:29 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 108 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:37:29.388Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:37:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:37:33.760Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:37:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:37:35.703Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:37:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:37:36.518Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:37:40 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:37:40.328Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"user-service","timestamp":"2026-05-11T18:37:41.885Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:37:41 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:37:41.887Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"user-service","timestamp":"2026-05-11T18:37:43.084Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:37:43 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:37:43.087Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:39:09 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:39:09.749Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:39:25 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:39:25.428Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:39:26 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:39:26.570Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:39:27 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:39:27.802Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:39:28 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:39:28.826Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:39:29 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:39:29.935Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"user-service","timestamp":"2026-05-11T18:39:30.877Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:39:30 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:39:30.879Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"user-service","timestamp":"2026-05-11T18:39:31.839Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:39:31 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:39:31.841Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"user-service","timestamp":"2026-05-11T18:39:33.060Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:39:33 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:39:33.062Z"}
