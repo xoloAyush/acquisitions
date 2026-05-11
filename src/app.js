@@ -11,6 +11,7 @@ import morgan from 'morgan';
 // popular HTTP request logger middleware for Node.js
 
 import authRoutes from './routes/auth.routes.js';
+import securityMiddleware from './middleware/security.middleware.js';
 // import { timestamp } from 'drizzle-orm/gel-core';
 
 const app = express();
@@ -22,8 +23,13 @@ app.use(cookieParser());
 
 app.use(morgan('combined', {stream: {write:(message) => logger.info(message.trim())}}));
 
+app.use(securityMiddleware);
+
 app.get('/', (req, res) => {
   logger.info('Hello from Acquisitions!');
+  // logger.info('Server started');
+  // logger.warn('Low disk space');
+  // logger.error('Database connection failed');
 
   res.status(200).send('Hello from Acquisitions!');
 });
@@ -45,6 +51,7 @@ app.use('/api/auth', authRoutes);
 export default app;
 
 // npm install eslint @eslint/js prettier eslint-config-prettier eslint-plugin-prettier globals -D
+
 // npm run lint
 // npm run lint:fix
 // npm run format

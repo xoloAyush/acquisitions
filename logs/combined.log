@@ -26,3 +26,50 @@
 {"level":"info","message":"::1 - - [09/May/2026:15:37:28 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 91 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service"}
 {"level":"info","message":"User registered successfully: contact@gmail.com","service":"user-service"}
 {"level":"info","message":"::1 - - [09/May/2026:15:37:40 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 101 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service"}
+{"level":"info","message":"User registered successfully: admin@gmail.com","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:16:14:07 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 101 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:19:50:15 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:19:58:22 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:19:59:27 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:20:00:28 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:20:17:00 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"Server started","service":"user-service"}
+{"level":"warn","message":"Low disk space","service":"user-service"}
+{"level":"error","message":"Database connection failed","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:20:19:36 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:20:28:08 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:20:30:55 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:20:31:10 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"user-service"}
+{"level":"info","message":"::1 - - [09/May/2026:20:31:30 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.119.0 Chrome/142.0.7444.265 Electron/39.8.8 Safari/537.36\"","service":"user-service"}
+{"level":"error","message":"Error creating the user: Error: User with his email already exists","service":"user-service"}
+{"level":"error","message":"Signup error User with his email already exists","service":"user-service","stack":"Error: User with his email already exists\n    at createUser (file:///D:/DevOps/pro/acquisitions/src/services/auth.service.js:39:39)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async signup (file:///D:/DevOps/pro/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [10/May/2026:15:47:15 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 32 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service"}
+{"level":"info","message":"User signed in successfully: admin@gmail.com","service":"user-service"}
+{"level":"info","message":"::1 - - [10/May/2026:15:47:57 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 108 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service"}
+{"level":"info","message":"User signed out","service":"user-service"}
+{"level":"info","message":"::1 - - [10/May/2026:15:48:41 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 37 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service"}
+{"level":"info","message":"User signed in successfully: admin@gmail.com","service":"user-service","timestamp":"2026-05-10T15:59:33.141Z"}
+{"level":"info","message":"::1 - - [10/May/2026:15:59:33 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 108 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-10T15:59:33.151Z"}
+{"ip":"::1","level":"warn","message":"Bot request is blocked","path":"/health","service":"user-service","timestamp":"2026-05-11T18:31:36.988Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:31:37 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:31:37.048Z"}
+{"ip":"::1","level":"warn","message":"Bot request is blocked","path":"/api/auth/sign-in","service":"user-service","timestamp":"2026-05-11T18:32:39.277Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:32:39 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:32:39.279Z"}
+{"level":"info","message":"User signed in successfully: admin@gmail.com","service":"user-service","timestamp":"2026-05-11T18:33:02.201Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:33:02 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 108 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:33:02.212Z"}
+{"level":"info","message":"::1 - - [11/May/2026:18:33:06 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:33:06.676Z"}
+{"ip":"::1","level":"warn","message":"Bot request is blocked","path":"/health","service":"user-service","timestamp":"2026-05-11T18:33:19.340Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:33:19 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:33:19.353Z"}
+{"ip":"::1","level":"warn","message":"Bot request is blocked","path":"/api/auth/sign-in","service":"user-service","timestamp":"2026-05-11T18:33:25.253Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:33:25 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:33:25.256Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"user-service","timestamp":"2026-05-11T18:34:20.271Z","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [11/May/2026:18:34:20 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"user-service","timestamp":"2026-05-11T18:34:20.285Z"}
